@@ -1,14 +1,19 @@
 {
+  "$schema": "../../../node_modules/ng-packagr/package.schema.json",
   "name": "@libertyware/ngx-form-core",
   "version": "0.4.3",
   "private": false,
-  "main": "lib/index.js",
-  "types": "./lib/index.d.ts",
-  "license": "MIT",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "scripts": {
-    "build:declaration": "tsc --project tsconfig.json",
-    "build:es": "cross-env BABEL_ENV=build babel src --root-mode upward-optional --out-dir lib --source-maps inline --extensions \".ts\" --delete-dir-on-start --no-comments"
+    "build:es": "ng-packagr -p package.json"
   },
+  "ngPackage": {
+    "lib": {
+      "entryFile": "src/index.ts"
+    }
+  },
+  "license": "MIT",
   "dependencies": {
     "core-js": "^3.4.1",
     "global": "^4.4.0",
@@ -18,10 +23,11 @@
     "@angular/forms": "> 7.0.0"
   },
   "files": [
-    "lib"
+    "dist"
   ],
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "directory": "dist"
   },
   "gitHead": "3a53617011194b4c0427bd0da227d0ad56160a74"
 }
