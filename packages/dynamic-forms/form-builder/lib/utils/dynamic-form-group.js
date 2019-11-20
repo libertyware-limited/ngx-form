@@ -20,7 +20,7 @@ var _foreverInvalid = require("../validators/forever-invalid.validator");
 
 var _dynamicFormControl = require("./dynamic-form-control");
 
-var _core = require("@oop-dynmic-forms/core");
+var _core = require("@libertyware/ngx-form-core");
 
 var _lodash = _interopRequireDefault(require("lodash.clonedeep"));
 

@@ -2,8 +2,8 @@ import { Component, OnInit, Input } from '@angular/core';
 import {
   FormGroupDirective
 } from '@angular/forms';
-import { DynamicFormGroup } from '@oop-dynmic-forms/ngx-form-builder';
-import { WidgetOptions } from '@oop-dynmic-forms/core';
+import { DynamicFormGroup } from '@libertyware/ngx-form-builder';
+import { WidgetOptions } from '@libertyware/ngx-form-core';
 import { FieldWidget } from './widgets/field';
 
 @Component({

@@ -7,7 +7,7 @@ exports.DynamicFormControl = void 0;
 
 var _forms = require("@angular/forms");
 
-var _core = require("@oop-dynmic-forms/core");
+var _core = require("@libertyware/ngx-form-core");
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 

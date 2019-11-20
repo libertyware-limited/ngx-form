@@ -3,7 +3,7 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [0.2.0](https://github.com/libertyware-limited/model-form-builder/compare/@oop-dynmic-forms/ngx-form-gen@0.1.0...@oop-dynmic-forms/ngx-form-gen@0.2.0) (2019-11-20)
+# [0.2.0](https://github.com/libertyware-limited/model-form-builder/compare/@libertyware/ngx-form-gen@0.1.0...@libertyware/ngx-form-gen@0.2.0) (2019-11-20)
 
 
 ### Features

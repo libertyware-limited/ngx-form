@@ -1,6 +1,6 @@
 import { FormControl } from '@angular/forms';
 import { ValidationMetadata } from 'class-validator/metadata/ValidationMetadata';
-import { MetadataKeys, RadioOption, TextareaOption } from '@oop-dynmic-forms/core';
+import { MetadataKeys, RadioOption, TextareaOption } from '@libertyware/ngx-form-core';
 
 import { DynamicFormGroupField } from '../models/dynamic-form-group-field';
 import { DynamicFormGroup } from './dynamic-form-group';

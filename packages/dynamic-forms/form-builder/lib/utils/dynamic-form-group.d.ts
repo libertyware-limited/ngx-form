@@ -5,7 +5,7 @@ import 'reflect-metadata';
 import { BehaviorSubject, Subject } from 'rxjs';
 import { Dictionary, ShortValidationErrors } from '../models';
 import { DynamicFormControl } from './dynamic-form-control';
-import { WidgetOptions } from '@oop-dynmic-forms/core';
+import { WidgetOptions } from '@libertyware/ngx-form-core';
 export declare type FormModel<T> = {
     [P in keyof T]?: T[P] | DynamicFormGroup<any> | FormArray;
 };

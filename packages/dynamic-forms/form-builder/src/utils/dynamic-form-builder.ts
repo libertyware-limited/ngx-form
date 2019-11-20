@@ -12,7 +12,7 @@ import {
 } from '../models/dynamic-form-group-config';
 import { DynamicFormGroup, FormModel, getClassValidators } from './dynamic-form-group';
 import { DynamicFormControl } from './dynamic-form-control';
-import { DynamicForm } from '@oop-dynmic-forms/core';
+import { DynamicForm } from '@libertyware/ngx-form-core';
 
 export class DynamicFormBuilder extends FormBuilder {
 

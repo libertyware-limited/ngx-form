@@ -1,5 +1,5 @@
 import { Input, Optional, SkipSelf, Host, OnInit } from '@angular/core';
-import { DynamicFormGroup, DynamicFormControl } from '@oop-dynmic-forms/ngx-form-builder';
+import { DynamicFormGroup, DynamicFormControl } from '@libertyware/ngx-form-builder';
 import { FormGroupDirective } from '@angular/forms';
 
 export abstract class FieldWidget implements OnInit {

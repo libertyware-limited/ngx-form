@@ -33,7 +33,7 @@ import {
   FOREVER_INVALID_NAME
 } from '../validators/forever-invalid.validator';
 import { DynamicFormControl } from './dynamic-form-control';
-import { WidgetOptions, getFormFieldsOptions } from '@oop-dynmic-forms/core';
+import { WidgetOptions, getFormFieldsOptions } from '@libertyware/ngx-form-core';
 
 import cloneDeep from 'lodash.clonedeep';
 import mergeWith from 'lodash.mergewith';

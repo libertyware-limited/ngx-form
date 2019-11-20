@@ -1,5 +1,5 @@
 {
-  "name": "@oop-dynmic-forms/ngx-form-builder",
+  "name": "@libertyware/ngx-form-builder",
   "version": "0.2.0",
   "private": false,
   "main": "lib/index.js",
@@ -10,7 +10,7 @@
     "build:es": "cross-env BABEL_ENV=build babel src --root-mode upward-optional --out-dir lib --source-maps inline --extensions \".ts\" --delete-dir-on-start --no-comments"
   },
   "dependencies": {
-    "@oop-dynmic-forms/core": "^0.2.0",
+    "@libertyware/ngx-form-core": "^0.2.0",
     "class-transformer": "^0.2.3",
     "class-validator": "^0.11.0",
     "lodash.clonedeep": "^4.5.0",
@@ -22,5 +22,6 @@
   },
   "files": [
     "lib"
-  ]
+  ],
+  "gitHead": "3a53617011194b4c0427bd0da227d0ad56160a74"
 }
