@@ -19,3 +19,4 @@ Angular render component. You just need to supply the widgets
 
 ## stackblitz Preview
 https://ngx-form-build.stackblitz.io
+https://stackblitz.com/edit/ngx-form-build
