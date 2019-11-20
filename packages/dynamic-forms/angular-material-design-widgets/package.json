@@ -1,6 +1,6 @@
 {
   "name": "@libertyware/ngx-form-material-design-widget",
-  "version": "0.7.7",
+  "version": "0.7.8",
   "private": false,
   "license": "MIT",
   "main": "./lib/index.js",
@@ -35,5 +35,5 @@
     "access": "public",
     "directory": "dist"
   },
-  "gitHead": "1d07dba4a5a3d22b8fbbda270a4cad226720fd77"
+  "gitHead": "751707e120f63fe9dff6600d25bf0e9f670b1908"
 }
