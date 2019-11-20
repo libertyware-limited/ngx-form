@@ -1,6 +1,6 @@
 {
   "name": "@libertyware/ngx-form-gen",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "private": false,
   "license": "MIT",
   "main": "lib/index.js",
@@ -10,8 +10,8 @@
     "build:es": "cross-env BABEL_ENV=build babel src --root-mode upward-optional --out-dir lib --source-maps inline --extensions \".ts\" --delete-dir-on-start --no-comments"
   },
   "dependencies": {
-    "@libertyware/ngx-form-core": "^0.2.0",
-    "@libertyware/ngx-form-builder": "^0.2.0"
+    "@libertyware/ngx-form-builder": "^0.3.0",
+    "@libertyware/ngx-form-core": "^0.3.0"
   },
   "peerDependencies": {
     "@angular/common": ">= 7.0.0",

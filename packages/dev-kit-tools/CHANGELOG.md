@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.3.0](https://github.com/libertyware-limited/model-form-builder/compare/@libertyware/dev_kit_tools@1.2.0...@libertyware/dev_kit_tools@1.3.0) (2019-11-20)
+
+
+### Features
+
+* **package:** change all package names ([b3372a5](https://github.com/libertyware-limited/model-form-builder/commit/b3372a5d1079d2c463a0c0ff955a9bc6248ab955))
+
+
+
+
+
 # [1.2.0](https://github.com/libertyware-limited/model-form-builder/compare/@libertyware/dev_kit_tools@1.1.0...@libertyware/dev_kit_tools@1.2.0) (2019-11-20)
 
 
