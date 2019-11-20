@@ -1,7 +1,7 @@
 {
   "$schema": "../../../node_modules/ng-packagr/package.schema.json",
   "name": "@libertyware/ngx-form-gen",
-  "version": "0.6.4",
+  "version": "0.6.5",
   "private": false,
   "license": "MIT",
   "main": "bundles/libertyware-ngx-form-gen.umd.js",
@@ -17,10 +17,11 @@
     "core-js": "^3.4.1"
   },
   "files": [
-    "lib"
+    "dist"
   ],
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "directory": "dist"
   },
   "gitHead": "3a53617011194b4c0427bd0da227d0ad56160a74",
   "module": "fesm5/libertyware-ngx-form-gen.js",
