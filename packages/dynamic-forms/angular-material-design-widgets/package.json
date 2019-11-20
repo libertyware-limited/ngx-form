@@ -1,0 +1,29 @@
+{
+  "name": "@libertyware/ngx-form-material-design-widget",
+  "version": "0.0.0",
+  "private": false,
+  "license": "MIT",
+  "main": "lib/index.js",
+  "types": "./lib/index.d.ts",
+  "scripts": {
+    "build:declaration": "tsc --project tsconfig.json",
+    "build:es": "cross-env BABEL_ENV=build babel src --root-mode upward-optional --out-dir lib --source-maps inline --extensions \".ts\" --delete-dir-on-start --no-comments"
+  },
+  "dependencies": {
+    "@libertyware/ngx-form-builder": "^0.4.0",
+    "@libertyware/ngx-form-gen": "^0.4.0",
+    "@libertyware/ngx-form-core": "^0.4.0"
+  },
+  "peerDependencies": {
+    "@angular/common": ">= 7.0.0",
+    "@angular/forms": ">= 7.0.0",
+    "@angular/material": ">= 7.0.0"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "3a53617011194b4c0427bd0da227d0ad56160a74"
+}
