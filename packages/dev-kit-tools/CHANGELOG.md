@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.4](https://github.com/libertyware-limited/ngx-form/compare/@libertyware/dev_kit_tools@1.3.3...@libertyware/dev_kit_tools@1.3.4) (2019-11-20)
+
+
+### Bug Fixes
+
+* add license ([4fe20d7](https://github.com/libertyware-limited/ngx-form/commit/4fe20d72fb0370509e642f3d74a4d05e6addbd35))
+
+
+
+
+
 ## [1.3.3](https://github.com/libertyware-limited/ngx-form/compare/@libertyware/dev_kit_tools@1.3.2...@libertyware/dev_kit_tools@1.3.3) (2019-11-20)
 
 
