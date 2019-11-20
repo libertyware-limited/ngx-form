@@ -657,9 +657,13 @@
         "version": "daee5050cc2807fc45cc85eb1908caf01e48fb418def36b742d62f8c2caf0464",
         "signature": "daee5050cc2807fc45cc85eb1908caf01e48fb418def36b742d62f8c2caf0464"
       },
+      "./packages/dynamic-forms/form-gen/lib/models/render-options.d.ts": {
+        "version": "d7b049ce18c93d2511e2319e7543a523d86bf09a35b3702f1df9dda3179b36a9",
+        "signature": "d7b049ce18c93d2511e2319e7543a523d86bf09a35b3702f1df9dda3179b36a9"
+      },
       "./packages/dynamic-forms/form-gen/lib/index.d.ts": {
-        "version": "e5c165b16f80a2588b8b281a6039773ec47182d00df9744e97bd07e3a3e2f3de",
-        "signature": "e5c165b16f80a2588b8b281a6039773ec47182d00df9744e97bd07e3a3e2f3de"
+        "version": "2a0ca47577cf89213815f47248604ca31e109077fd6c5e2c385baa1550fc1ad6",
+        "signature": "2a0ca47577cf89213815f47248604ca31e109077fd6c5e2c385baa1550fc1ad6"
       },
       "./packages/dynamic-forms/angular-material-design-widgets/src/date-field.widget.ts": {
         "version": "37694289242247f469f2571a8a06aa88be9f2f561c2ed70c8a5e4217003ad659",
@@ -1485,9 +1489,13 @@
         "version": "9ec31c33e060d9130f126df57559d22919667395fbd20e1a16597e3a4797d784",
         "signature": "85e2ae2ff419ac6724d58ab3e82aee47f036f3c2e8658e042f4364a645864aa3"
       },
+      "./packages/dynamic-forms/angular-material-design-widgets/src/widget-preset.ts": {
+        "version": "3e16025565807d36da748f02f2f085ca393077aeda1906f34b9c858ee709bc35",
+        "signature": "c4e0fe21ed7e022030de6475d2f8dfdea20be3c753fa475dbf4a15d8711f5c6d"
+      },
       "./packages/dynamic-forms/angular-material-design-widgets/src/index.ts": {
-        "version": "769d89202e00d5def349ac2fbe002c47a4b808a343c1d7fea5ba5d014c44fb9a",
-        "signature": "d3a1185f8675b010677b6981f20a00583f3533d39edc6912ffeb86cf56596694"
+        "version": "f46ae61072712b96d63883e79023b334b1b3f14e8d9bbe4ec38c5cbd284aa063",
+        "signature": "1cf1681293994a97853252ae4128cde9d69ab15f50e1e1fd2fb46977e6b15619"
       },
       "./node_modules/@types/eslint-visitor-keys/index.d.ts": {
         "version": "725d9be2fd48440256f4deb00649adffdbc5ecd282b09e89d4e200663792c34c",
@@ -3015,10 +3023,18 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "./packages/dynamic-forms/form-gen/lib/models/render-options.d.ts": [
+        "./packages/dynamic-forms/form-gen/lib/widgets/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "./packages/dynamic-forms/form-gen/lib/index.d.ts": [
         "./packages/dynamic-forms/form-gen/lib/form-gen.component.d.ts",
         "./packages/dynamic-forms/form-gen/lib/widgets/index.d.ts",
         "./packages/dynamic-forms/form-gen/lib/form-gen.module.d.ts",
+        "./packages/dynamic-forms/form-gen/lib/models/render-options.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
@@ -4762,12 +4778,25 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "./packages/dynamic-forms/angular-material-design-widgets/src/widget-preset.ts": [
+        "./packages/dynamic-forms/form-gen/lib/index.d.ts",
+        "./packages/dynamic-forms/core/lib/index.d.ts",
+        "./packages/dynamic-forms/angular-material-design-widgets/src/input-field.widget.ts",
+        "./packages/dynamic-forms/angular-material-design-widgets/src/date-field.widget.ts",
+        "./packages/dynamic-forms/angular-material-design-widgets/src/radio-field.widget.ts",
+        "./packages/dynamic-forms/angular-material-design-widgets/src/textarea-field.widget.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "./packages/dynamic-forms/angular-material-design-widgets/src/index.ts": [
         "./packages/dynamic-forms/angular-material-design-widgets/src/date-field.widget.ts",
         "./packages/dynamic-forms/angular-material-design-widgets/src/input-field.widget.ts",
         "./packages/dynamic-forms/angular-material-design-widgets/src/material-form-widget.module.ts",
         "./packages/dynamic-forms/angular-material-design-widgets/src/radio-field.widget.ts",
         "./packages/dynamic-forms/angular-material-design-widgets/src/textarea-field.widget.ts",
+        "./packages/dynamic-forms/angular-material-design-widgets/src/widget-preset.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
@@ -6904,12 +6933,13 @@
         "./packages/dynamic-forms/form-gen/lib/form-gen.component.d.ts",
         "./packages/dynamic-forms/form-gen/lib/widgets/index.d.ts",
         "./packages/dynamic-forms/form-gen/lib/form-gen.module.d.ts",
+        "./packages/dynamic-forms/form-gen/lib/models/render-options.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./packages/dynamic-forms/angular-material-design-widgets/src/textarea-field.widget.ts": [
+      "./packages/dynamic-forms/angular-material-design-widgets/src/widget-preset.ts": [
         "./packages/dynamic-forms/form-gen/lib/index.d.ts"
       ],
       "./packages/dynamic-forms/angular-material-design-widgets/src/index.ts": [
@@ -6917,7 +6947,11 @@
         "./packages/dynamic-forms/angular-material-design-widgets/src/input-field.widget.ts",
         "./packages/dynamic-forms/angular-material-design-widgets/src/material-form-widget.module.ts",
         "./packages/dynamic-forms/angular-material-design-widgets/src/radio-field.widget.ts",
-        "./packages/dynamic-forms/angular-material-design-widgets/src/textarea-field.widget.ts"
+        "./packages/dynamic-forms/angular-material-design-widgets/src/textarea-field.widget.ts",
+        "./packages/dynamic-forms/angular-material-design-widgets/src/widget-preset.ts"
+      ],
+      "./packages/dynamic-forms/angular-material-design-widgets/src/textarea-field.widget.ts": [
+        "./packages/dynamic-forms/form-gen/lib/index.d.ts"
       ],
       "./packages/dynamic-forms/angular-material-design-widgets/src/radio-field.widget.ts": [
         "./packages/dynamic-forms/form-gen/lib/index.d.ts"
@@ -6927,6 +6961,13 @@
       ],
       "./packages/dynamic-forms/angular-material-design-widgets/src/date-field.widget.ts": [
         "./packages/dynamic-forms/form-gen/lib/index.d.ts"
+      ],
+      "./packages/dynamic-forms/form-gen/lib/models/render-options.d.ts": [
+        "./packages/dynamic-forms/form-gen/lib/widgets/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "./packages/dynamic-forms/form-gen/lib/form-gen.component.d.ts": [
         "./node_modules/@angular/core/core.d.ts",
@@ -8850,6 +8891,7 @@
       "./packages/dynamic-forms/form-gen/lib/widgets/field.d.ts",
       "./packages/dynamic-forms/form-gen/lib/widgets/index.d.ts",
       "./packages/dynamic-forms/form-gen/lib/index.d.ts",
+      "./packages/dynamic-forms/form-gen/lib/models/render-options.d.ts",
       "./packages/dynamic-forms/form-gen/lib/form-gen.component.d.ts",
       "./packages/dynamic-forms/form-gen/lib/form-gen.module.d.ts",
       "./node_modules/@angular/material/datepicker/typings/datepicker-module.d.ts",
@@ -9057,6 +9099,7 @@
       "./packages/dynamic-forms/angular-material-design-widgets/src/material-form-widget.module.ts",
       "./packages/dynamic-forms/angular-material-design-widgets/src/radio-field.widget.ts",
       "./packages/dynamic-forms/angular-material-design-widgets/src/textarea-field.widget.ts",
+      "./packages/dynamic-forms/angular-material-design-widgets/src/widget-preset.ts",
       "./packages/dynamic-forms/angular-material-design-widgets/src/index.ts"
     ]
   },
