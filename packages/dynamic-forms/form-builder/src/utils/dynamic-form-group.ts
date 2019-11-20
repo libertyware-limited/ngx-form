@@ -21,7 +21,6 @@ import {
   ValidatorOptions
 } from 'class-validator';
 import { ValidationMetadata } from 'class-validator/metadata/ValidationMetadata';
-import 'reflect-metadata';
 import { BehaviorSubject, Subject } from 'rxjs';
 import {
   Dictionary,

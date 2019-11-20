@@ -1,4 +1,3 @@
-import 'reflect-metadata';
 import { WidgetOptions } from '../../../models/widget-options';
 import { MetadataKeys } from '../../meta-keys';
 

@@ -14,13 +14,11 @@
     },
     "whitelistedNonPeerDependencies": [
       "global",
-      "reflect-metadata"
     ]
   },
   "license": "MIT",
   "dependencies": {
-    "global": "^4.4.0",
-    "reflect-metadata": "^0.1.13"
+    "global": "^4.4.0"
   },
   "peerDependencies": {
     "@angular/forms": "> 7.0.0",

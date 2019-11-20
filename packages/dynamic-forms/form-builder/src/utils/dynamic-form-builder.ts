@@ -1,5 +1,3 @@
-import 'reflect-metadata';
-
 import { AbstractControlOptions, FormBuilder, ValidatorFn } from '@angular/forms';
 import { plainToClass } from 'class-transformer';
 import { ClassType } from 'class-transformer/ClassTransformer';

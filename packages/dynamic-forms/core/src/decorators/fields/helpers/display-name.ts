@@ -1,4 +1,3 @@
-import 'reflect-metadata';
 import { MetadataKeys } from '../../meta-keys';
 
 export function displayName(
