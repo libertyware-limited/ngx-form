@@ -6,6 +6,11 @@
   "license": "MIT",
   "main": "bundles/libertyware-ngx-form-material-design-widget.umd.js",
   "types": "./dist/index.d.ts",
+  "devDependencies": {
+    "@libertyware/ngx-form-builder": "*",
+    "@libertyware/ngx-form-core": "*",
+    "@libertyware/ngx-form-gen": "*"
+  },
   "peerDependencies": {
     "@angular/common": ">= 7.0.0",
     "@angular/forms": ">= 7.0.0",

@@ -11,16 +11,20 @@
   "ngPackage": {
     "lib": {
       "entryFile": "src/index.ts"
-    }
+    },
+    "whitelistedNonPeerDependencies": [
+      "global",
+      "reflect-metadata"
+    ]
   },
   "license": "MIT",
   "dependencies": {
-    "core-js": "^3.4.1",
     "global": "^4.4.0",
     "reflect-metadata": "^0.1.13"
   },
   "peerDependencies": {
-    "@angular/forms": "> 7.0.0"
+    "@angular/forms": "> 7.0.0",
+    "core-js": "^3.4.1"
   },
   "files": [
     "dist"

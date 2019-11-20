@@ -1,0 +1,35 @@
+{
+  "$schema": "../../../node_modules/ng-packagr/package.schema.json",
+  "name": "@libertyware/ngx-form-core",
+  "version": "0.4.3",
+  "private": false,
+  "main": "bundles/libertyware-ngx-form-core.umd.js",
+  "types": "./dist/index.d.ts",
+  "license": "MIT",
+  "dependencies": {
+    "global": "^4.4.0",
+    "reflect-metadata": "^0.1.13",
+    "tslib": "^1.9.0"
+  },
+  "peerDependencies": {
+    "@angular/forms": "> 7.0.0",
+    "core-js": "^3.4.1"
+  },
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "directory": "dist"
+  },
+  "gitHead": "3a53617011194b4c0427bd0da227d0ad56160a74",
+  "module": "fesm5/libertyware-ngx-form-core.js",
+  "es2015": "fesm2015/libertyware-ngx-form-core.js",
+  "esm5": "esm5/libertyware-ngx-form-core.js",
+  "esm2015": "esm2015/libertyware-ngx-form-core.js",
+  "fesm5": "fesm5/libertyware-ngx-form-core.js",
+  "fesm2015": "fesm2015/libertyware-ngx-form-core.js",
+  "typings": "libertyware-ngx-form-core.d.ts",
+  "metadata": "libertyware-ngx-form-core.metadata.json",
+  "sideEffects": false
+}

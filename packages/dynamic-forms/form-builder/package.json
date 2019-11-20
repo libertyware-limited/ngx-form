@@ -11,20 +11,28 @@
   "ngPackage": {
     "lib": {
       "entryFile": "src/index.ts"
-    }
+    },
+    "whitelistedNonPeerDependencies": [
+      "class-transformer",
+      "class-validator",
+      "lodash.clonedeep",
+      "lodash.mergewith",
+      "util",
+      "@libertyware/ngx-form-core"
+    ]
   },
   "license": "MIT",
   "dependencies": {
-    "@libertyware/ngx-form-core": "^0.4.3",
     "class-transformer": "^0.2.3",
     "class-validator": "^0.11.0",
-    "core-js": "^3.4.1",
     "lodash.clonedeep": "^4.5.0",
     "lodash.mergewith": "^4.5.0",
-    "util": "^0.12.1"
+    "util": "^0.12.1",
+    "@libertyware/ngx-form-core": "*"
   },
   "peerDependencies": {
-    "@angular/forms": ">= 7.0.0"
+    "@angular/forms": ">= 7.0.0",
+    "core-js": "^3.4.1"
   },
   "files": [
     "dist"

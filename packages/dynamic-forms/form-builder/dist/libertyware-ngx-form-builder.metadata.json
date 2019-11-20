@@ -1,0 +1,1 @@
+{"__symbolic":"module","version":4,"exports":[{"from":"./forever-invalid.validator"},{"from":"./dynamic-form-group"},{"from":"./dynamic-form-control"},{"from":"./short-validation-errors"}],"metadata":{},"origins":{},"importAs":"@libertyware/ngx-form-builder"}
