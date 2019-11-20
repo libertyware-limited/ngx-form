@@ -602,12 +602,12 @@
         "signature": "fdcdcafa47ea07272b5bc890fc2e578855fbc886a6052d69457aedd68022d9af"
       },
       "./packages/dynamic-forms/form-builder/lib/utils/dynamic-form-control.d.ts": {
-        "version": "f8f143d2ebdb6a20719d047831c9b41d3de1e5bc613ea3acf02ddc52a24f35a1",
-        "signature": "f8f143d2ebdb6a20719d047831c9b41d3de1e5bc613ea3acf02ddc52a24f35a1"
+        "version": "8333cc4bc36b391bbf093f4cc35b08615bdccd518f897d53d909141192414971",
+        "signature": "8333cc4bc36b391bbf093f4cc35b08615bdccd518f897d53d909141192414971"
       },
       "./packages/dynamic-forms/form-builder/lib/utils/dynamic-form-group.d.ts": {
-        "version": "94bf73772829b769ee9015ff94b610e093e432c089451d93ad93befea6ec53f4",
-        "signature": "94bf73772829b769ee9015ff94b610e093e432c089451d93ad93befea6ec53f4"
+        "version": "ebd026a359943db36a6051361683311daa9f367ea2006b27ccb3aa85bc46022c",
+        "signature": "ebd026a359943db36a6051361683311daa9f367ea2006b27ccb3aa85bc46022c"
       },
       "./packages/dynamic-forms/form-builder/lib/models/dynamic-form-group-field.d.ts": {
         "version": "ec12f619bf85e9166d277d383b032f686bbf4e7ae9c0476b7eccf25d94389bf8",
@@ -642,12 +642,12 @@
         "signature": "21ef6f9630139a0ee197564568ad07ea375e61ab0571e37e348957955b99cc40"
       },
       "./packages/dynamic-forms/form-gen/src/widgets/field.ts": {
-        "version": "85d8dd12321510a657f03d848f55c1636e808e255ca8e9df51f9ba31936d7e10",
-        "signature": "d9dee30503f6d8c4a1a0a112c57027aa1c28d2b78c53e364f5ba038057f6614b"
+        "version": "bb9759eab8b9398fe300bb2201b2461b4c3fdc62c0370a6f0bd5023b9bebf92d",
+        "signature": "3795b70c7aa466ae3212f5d444555ddbae870f2cb09f80bec5d28d2d66217a33"
       },
       "./packages/dynamic-forms/form-gen/src/form-gen.component.ts": {
-        "version": "944702441cd6f4e7e747460fe7750fe64ed9c0fb64d2b15da18f37d1e5853649",
-        "signature": "8d280722489791da10728f7189fa85820a1c15c313ad23ad396edcd200311217"
+        "version": "c12c6c3715c4ce054970a6deacba30f0bd8df6ea5a3ddd49c6237c6cf4da5678",
+        "signature": "2d3297c4f9ef886427f4e6dfcd1e649d6ea07fa7cf70851eb2664c6040c442c1"
       },
       "./node_modules/@angular/common/common.d.ts": {
         "version": "f3fa5e4d26c865b4d152299148e27c632cb1aaa24ddf84e61ff3d24373308beb",
@@ -662,8 +662,8 @@
         "signature": "d7b049ce18c93d2511e2319e7543a523d86bf09a35b3702f1df9dda3179b36a9"
       },
       "./packages/dynamic-forms/form-gen/src/renderer/root-widget.component.ts": {
-        "version": "529c43c49b03c6305a5bf35b6d2e8b2f8669c38c87c0c16c7dec1c9a5d0b7890",
-        "signature": "54f0427677519a2701c0c2b07ecbf7f9b1713b716f434e092336320ae5e4e2f4"
+        "version": "96fb855c07ad2d3bb945baa212d511f45e30435b2b7545aa3ba4152fcc1a7db0",
+        "signature": "7d0a152d44ccbf2473ad8bc53b9a8424236ecae20a760c376fd182ead62f4f6e"
       },
       "./packages/dynamic-forms/form-gen/src/form-gen.module.ts": {
         "version": "34d6a3e809b33b5ca29474bd278d358bd8e863a5c5f47c2075ce9229ce6128d0",
