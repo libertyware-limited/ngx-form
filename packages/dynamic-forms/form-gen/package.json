@@ -11,7 +11,8 @@
   },
   "dependencies": {
     "@libertyware/ngx-form-builder": "^0.4.1",
-    "@libertyware/ngx-form-core": "^0.4.1"
+    "@libertyware/ngx-form-core": "^0.4.1",
+    "core-js": "^3.4.1"
   },
   "peerDependencies": {
     "@angular/common": ">= 7.0.0",

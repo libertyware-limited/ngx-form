@@ -10,6 +10,7 @@
     "build:es": "cross-env BABEL_ENV=build babel src --root-mode upward-optional --out-dir lib --source-maps inline --extensions \".ts\" --delete-dir-on-start --no-comments"
   },
   "dependencies": {
+    "core-js": "^3.4.1",
     "global": "^4.4.0",
     "reflect-metadata": "^0.1.13"
   },
