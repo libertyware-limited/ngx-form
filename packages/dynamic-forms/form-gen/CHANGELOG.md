@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.6.1](https://github.com/libertyware-limited/ngx-form/compare/@libertyware/ngx-form-gen@0.6.0...@libertyware/ngx-form-gen@0.6.1) (2019-11-20)
+
+
+### Bug Fixes
+
+* part commit ([d9d25e9](https://github.com/libertyware-limited/ngx-form/commit/d9d25e9b17fc8b8efe403eec4e34d60fd247442f))
+* **comp:** change component prefix ([91cbf59](https://github.com/libertyware-limited/ngx-form/commit/91cbf59f5ffe92a523875cf4118a9813cd5c5189))
+
+
+
+
+
 # [0.6.0](https://github.com/libertyware-limited/ngx-form/compare/@libertyware/ngx-form-gen@0.5.0...@libertyware/ngx-form-gen@0.6.0) (2019-11-20)
 
 
