@@ -43,7 +43,7 @@ jobs:
           node-version: 12
           registry-url: https://npm.pkg.github.com/
           scope: '@libertyware'
-      - run: npm ci
-      - run: npm publish
+      - run: yarn
+      - run: yarn release
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
