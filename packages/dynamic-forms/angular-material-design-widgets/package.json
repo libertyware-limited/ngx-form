@@ -1,6 +1,6 @@
 {
   "name": "@libertyware/ngx-form-material-design-widget",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "private": false,
   "license": "MIT",
   "main": "lib/index.js",
@@ -11,8 +11,8 @@
   },
   "dependencies": {
     "@libertyware/ngx-form-builder": "^0.4.0",
-    "@libertyware/ngx-form-gen": "^0.4.0",
-    "@libertyware/ngx-form-core": "^0.4.0"
+    "@libertyware/ngx-form-core": "^0.4.0",
+    "@libertyware/ngx-form-gen": "^0.5.0"
   },
   "peerDependencies": {
     "@angular/common": ">= 7.0.0",
