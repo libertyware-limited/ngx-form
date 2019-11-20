@@ -1,12 +1,12 @@
 {
-  "$schema": "../../../node_modules/ng-packagr/package.schema.json",
   "name": "@libertyware/ngx-form-builder",
   "version": "0.7.5",
   "private": false,
-  "main": "./dist/index.js",
-  "types": "./dist/index.d.ts",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
   "scripts": {
-    "build:es": "ng-packagr -p package.json"
+    "build:declaration": "tsc --project tsconfig.json",
+    "build:es": "cross-env BABEL_ENV=build babel src --root-mode upward-optional --out-dir lib --source-maps inline --extensions \".ts\" --delete-dir-on-start --no-comments"
   },
   "ngPackage": {
     "lib": {
@@ -35,11 +35,10 @@
     "core-js": "^3.4.1"
   },
   "files": [
-    "dist"
+    "lib"
   ],
   "publishConfig": {
-    "access": "public",
-    "directory": "dist"
+    "access": "public"
   },
   "gitHead": "6d177d6e1a8de380176d7824108d2b5396acd260"
 }
