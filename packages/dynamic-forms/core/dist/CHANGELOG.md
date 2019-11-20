@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.4.4](https://github.com/libertyware-limited/ngx-form/compare/@libertyware/ngx-form-core@0.4.3...@libertyware/ngx-form-core@0.4.4) (2019-11-20)
+
+
+### Bug Fixes
+
+* commit from failed release ([37de0c2](https://github.com/libertyware-limited/ngx-form/commit/37de0c2d35997dd98bea1e9d212dd6472b144063))
+* move to ng-packagr ([f314ba1](https://github.com/libertyware-limited/ngx-form/commit/f314ba1e23280c3bbfc525444d9ecde57b6e6a52))
+* release failed to commit ([8009437](https://github.com/libertyware-limited/ngx-form/commit/8009437cb4ec334a037e3f769de2534bd7ee158a))
+
+
+
+
+
 ## [0.4.3](https://github.com/libertyware-limited/ngx-form/compare/@libertyware/ngx-form-core@0.4.2...@libertyware/ngx-form-core@0.4.3) (2019-11-20)
 
 

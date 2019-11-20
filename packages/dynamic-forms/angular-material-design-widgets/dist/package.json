@@ -1,15 +1,15 @@
 {
   "$schema": "../../../node_modules/ng-packagr/package.schema.json",
   "name": "@libertyware/ngx-form-material-design-widget",
-  "version": "0.7.1",
+  "version": "0.7.2",
   "private": false,
   "license": "MIT",
   "main": "bundles/libertyware-ngx-form-material-design-widget.umd.js",
   "types": "./dist/index.d.ts",
   "devDependencies": {
-    "@libertyware/ngx-form-builder": "*",
-    "@libertyware/ngx-form-core": "*",
-    "@libertyware/ngx-form-gen": "*"
+    "@libertyware/ngx-form-builder": "^0.7.2",
+    "@libertyware/ngx-form-core": "^0.4.4",
+    "@libertyware/ngx-form-gen": "^0.7.2"
   },
   "peerDependencies": {
     "@angular/common": ">= 7.0.0",
@@ -27,7 +27,7 @@
     "access": "public",
     "directory": "dist"
   },
-  "gitHead": "56ba5d9b8e8bad25ae2cc8e7af0ca94de30ab974",
+  "gitHead": "6d177d6e1a8de380176d7824108d2b5396acd260",
   "module": "fesm5/libertyware-ngx-form-material-design-widget.js",
   "es2015": "fesm2015/libertyware-ngx-form-material-design-widget.js",
   "esm5": "esm5/libertyware-ngx-form-material-design-widget.js",

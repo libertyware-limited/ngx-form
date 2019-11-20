@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.7.2](https://github.com/libertyware-limited/ngx-form/compare/@libertyware/ngx-form-material-design-widget@0.7.1...@libertyware/ngx-form-material-design-widget@0.7.2) (2019-11-20)
+
+
+### Bug Fixes
+
+* move to ng-packagr ([f314ba1](https://github.com/libertyware-limited/ngx-form/commit/f314ba1e23280c3bbfc525444d9ecde57b6e6a52))
+
+
+
+
+
 ## [0.7.1](https://github.com/libertyware-limited/ngx-form/compare/@libertyware/ngx-form-material-design-widget@0.2.6...@libertyware/ngx-form-material-design-widget@0.7.1) (2019-11-20)
 
 

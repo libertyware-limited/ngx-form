@@ -1,18 +1,18 @@
 {
   "$schema": "../../../node_modules/ng-packagr/package.schema.json",
   "name": "@libertyware/ngx-form-builder",
-  "version": "0.7.1",
+  "version": "0.7.2",
   "private": false,
   "main": "bundles/libertyware-ngx-form-builder.umd.js",
   "types": "./dist/index.d.ts",
   "license": "MIT",
   "dependencies": {
+    "@libertyware/ngx-form-core": "^0.4.4",
     "class-transformer": "^0.2.3",
     "class-validator": "^0.11.0",
     "lodash.clonedeep": "^4.5.0",
     "lodash.mergewith": "^4.5.0",
     "util": "^0.12.1",
-    "@libertyware/ngx-form-core": "*",
     "tslib": "^1.9.0"
   },
   "peerDependencies": {
@@ -26,7 +26,7 @@
     "access": "public",
     "directory": "dist"
   },
-  "gitHead": "56ba5d9b8e8bad25ae2cc8e7af0ca94de30ab974",
+  "gitHead": "6d177d6e1a8de380176d7824108d2b5396acd260",
   "module": "fesm5/libertyware-ngx-form-builder.js",
   "es2015": "fesm2015/libertyware-ngx-form-builder.js",
   "esm5": "esm5/libertyware-ngx-form-builder.js",
