@@ -1,6 +1,6 @@
 {
   "name": "root",
-  "private": false,
+  "private": true,
   "workspaces": [
     "packages/dev-kit-tools",
     "packages/dynamic-forms/*"

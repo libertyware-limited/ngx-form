@@ -1,0 +1,15 @@
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.formField = formField;
+
+var _customFormField = require("./custom-form-field");
+
+function formField(type) {
+  return function (target, propertyKey) {
+    return (0, _customFormField.customFormField)(type, target, propertyKey);
+  };
+}
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uLy4uL3NyYy9kZWNvcmF0b3JzL2ZpZWxkcy9maWVsZC10eXBlcy9mb3JtLWZpZWxkLnRzIl0sIm5hbWVzIjpbImZvcm1GaWVsZCIsInR5cGUiLCJ0YXJnZXQiLCJwcm9wZXJ0eUtleSJdLCJtYXBwaW5ncyI6Ijs7Ozs7OztBQUFBOztBQUVPLFNBQVNBLFNBQVQsQ0FDTEMsSUFESyxFQUV1QztBQUM1QyxTQUFPLFVBQUNDLE1BQUQsRUFBY0MsV0FBZDtBQUFBLFdBQ0wsc0NBQWdCRixJQUFoQixFQUFzQkMsTUFBdEIsRUFBOEJDLFdBQTlCLENBREs7QUFBQSxHQUFQO0FBRUQiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBjdXN0b21Gb3JtRmllbGQgfSBmcm9tICcuL2N1c3RvbS1mb3JtLWZpZWxkJztcblxuZXhwb3J0IGZ1bmN0aW9uIGZvcm1GaWVsZChcbiAgdHlwZTogc3RyaW5nXG4pOiAodGFyZ2V0OiBhbnksIHByb3BlcnR5S2V5OiBzdHJpbmcpID0+IHZvaWQge1xuICByZXR1cm4gKHRhcmdldDogYW55LCBwcm9wZXJ0eUtleTogc3RyaW5nKSA9PlxuICAgIGN1c3RvbUZvcm1GaWVsZCh0eXBlLCB0YXJnZXQsIHByb3BlcnR5S2V5KTtcbn1cbiJdfQ==
