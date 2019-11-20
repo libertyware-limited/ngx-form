@@ -1,0 +1,15 @@
+{
+  "packages": ["packages/dev-kit-tools", "packages/dynamic-forms/*"],
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "version": "independent",
+  "stream": true,
+  "command": {
+    "publish": {
+      "conventionalCommits": true,
+      "yes": true,
+      "allowBranch": ["master", "next"],
+      "message": "chore(release): Publish"
+    }
+  }
+}

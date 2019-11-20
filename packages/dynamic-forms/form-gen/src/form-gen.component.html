@@ -1,0 +1,10 @@
+<form [formGroup]="group" #form="ngForm" (ngSubmit)="onSubmit()">
+
+  <ng-container *ngFor="let option of group.getFormGenData()">
+    <govuk-root-widget *ngIf="renderExists(option)" [renderOptions]="renderOptionsOverRide" [fieldOptions]="option"></govuk-root-widget>
+  </ng-container>
+
+  <button class="govuk-button">
+    Continue
+  </button>
+</form>

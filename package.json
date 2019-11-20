@@ -1,0 +1,34 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "packages/dev-kit-tools",
+    "packages/dynamic-forms/*"
+  ],
+  "scripts": {
+    "postinstall": "lerna bootstrap --use-workspaces",
+    "build-storybook": "build-storybook",
+    "build": "lerna run --parallel build:es",
+    "postbuild": "lerna run build:declaration",
+    "commit": "git-cz",
+    "fix": "run-p -c 'lint:* --fix'",
+    "lint:css": "stylelint 'packages/**/*.ts{,x}'",
+    "lint:ts": "eslint 'packages/**/*.ts{,x}'",
+    "lint": "run-p -c lint:*",
+    "prerelease": "yarn build",
+    "release": "lerna publish",
+    "storybook": "start-storybook -p 6006",
+    "test": "jest",
+    "tsc": "tsc"
+  },
+  "devDependencies": {
+    "@angular/core": "^8.2.14",
+    "@angular/forms": "^8.2.14",
+    "@angular/common": "^8.2.14",
+    "@commitlint/cli": "^8.1.0",
+    "@commitlint/config-conventional": "^8.1.0",
+    "husky": "^3.0.5",
+    "lerna": "^3.16.4"
+  },
+  "dependencies": {}
+}

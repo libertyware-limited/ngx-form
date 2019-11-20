@@ -1,0 +1,46 @@
+{
+  "name": "@libertyware/dev_kit_tools",
+  "version": "1.0.0",
+  "description": "style tools",
+  "files": [
+    ".eslintrc",
+    ".stylelintrc",
+    "tsconfig.json",
+    "babel.config.js",
+    "eslint.config.js",
+    "jest.config.js"
+  ],
+  "dependencies": {
+    "@babel/cli": "^7.6.0",
+    "@babel/core": "^7.6.0",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-proposal-decorators": "^7.6.0",
+    "@babel/plugin-proposal-numeric-separator": "^7.2.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.5.5",
+    "@babel/plugin-transform-literals": "^7.2.0",
+    "@babel/plugin-transform-typescript": "^7.6.0",
+    "@babel/preset-env": "^7.6.2",
+    "@babel/preset-typescript": "^7.6.0",
+    "@typescript-eslint/eslint-plugin": "^2.4.0",
+    "@typescript-eslint/parser": "^2.4.0",
+    "cross-env": "^6.0.3",
+    "eslint": "^6.5.1",
+    "prettier": "^1.18.2",
+    "eslint-plugin-prettier": "^3.1.1",
+    "stylelint": "^11.0.0",
+    "stylelint-config-recommended": "^3.0.0",
+    "stylelint-config-standard": "^19.0.0",
+    "typescript": "^3.6.3"
+  },
+  "browserslist": "> 0.25%, not dead",
+  "husky": {
+    "hooks": {
+      "commit-msg": "[[ -n $HUSKY_BYPASS ]] || commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  }
+}

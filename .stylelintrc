@@ -1,0 +1,5 @@
+{
+  "extends": [
+    "@libertyware/dev_kit_tools/.stylelintrc"
+  ]
+}

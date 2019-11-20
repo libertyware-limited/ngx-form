@@ -1,0 +1,21 @@
+{
+  "name": "@oop-dynmic-forms/core",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "types": "./lib/index.d.ts",
+  "license": "MIT",
+  "scripts": {
+    "build:declaration": "tsc --project tsconfig.json",
+    "build:es": "cross-env BABEL_ENV=build babel src --root-mode upward-optional --out-dir lib --source-maps inline --extensions \".ts\" --delete-dir-on-start --no-comments"
+  },
+  "dependencies": {
+    "global": "^4.4.0",
+    "reflect-metadata": "^0.1.13"
+  },
+  "peerDependencies": {
+    "@angular/forms": "> 7.0.0"
+  },
+  "files": [
+    "lib"
+  ]
+}
