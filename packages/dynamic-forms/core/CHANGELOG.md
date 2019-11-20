@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.4.8](https://github.com/libertyware-limited/ngx-form/compare/@libertyware/ngx-form-core@0.4.7...@libertyware/ngx-form-core@0.4.8) (2019-11-20)
+
+
+### Bug Fixes
+
+* move back to babel build ([aacb3aa](https://github.com/libertyware-limited/ngx-form/commit/aacb3aa295e77d08672087034ed12036be069e4b))
+* release didnt commit ([1b5c946](https://github.com/libertyware-limited/ngx-form/commit/1b5c946fab877e367167e99c046e9bcdc007209e))
+
+
+
+
+
 ## [0.4.7](https://github.com/libertyware-limited/ngx-form/compare/@libertyware/ngx-form-core@0.4.6...@libertyware/ngx-form-core@0.4.7) (2019-11-20)
 
 
