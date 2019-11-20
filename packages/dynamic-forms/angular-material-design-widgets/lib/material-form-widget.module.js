@@ -1,0 +1,48 @@
+"use strict";
+
+require("core-js/modules/es.array.concat");
+
+require("core-js/modules/es.object.define-property");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.NgxMaterialFormModule = void 0;
+
+var _core = require("@angular/core");
+
+var _common = require("@angular/common");
+
+var _forms = require("@angular/forms");
+
+var _datepicker = require("@angular/material/datepicker");
+
+var _input = require("@angular/material/input");
+
+var _core2 = require("@angular/material/core");
+
+var _radio = require("@angular/material/radio");
+
+var _dateField = require("./date-field.widget");
+
+var _inputField = require("./input-field.widget");
+
+var _radioField = require("./radio-field.widget");
+
+var _textareaField = require("./textarea-field.widget");
+
+var _dec, _class;
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+var widgets = [_dateField.NgxMaterialDateWidget, _inputField.NgxMaterialInputWidget, _radioField.NgxMaterialRadioWidget, _textareaField.NgxMaterialTextareaWidget];
+var NgxMaterialFormModule = (_dec = (0, _core.NgModule)({
+  imports: [_common.CommonModule, _forms.ReactiveFormsModule, _datepicker.MatDatepickerModule, _input.MatInputModule, _radio.MatRadioModule, _core2.MatNativeDateModule, _core2.MatRippleModule],
+  exports: [].concat(widgets),
+  declarations: [].concat(widgets),
+  entryComponents: [].concat(widgets)
+}), _dec(_class = function NgxMaterialFormModule() {
+  _classCallCheck(this, NgxMaterialFormModule);
+}) || _class);
+exports.NgxMaterialFormModule = NgxMaterialFormModule;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3NyYy9tYXRlcmlhbC1mb3JtLXdpZGdldC5tb2R1bGUudHMiXSwibmFtZXMiOlsid2lkZ2V0cyIsIk5neE1hdGVyaWFsRGF0ZVdpZGdldCIsIk5neE1hdGVyaWFsSW5wdXRXaWRnZXQiLCJOZ3hNYXRlcmlhbFJhZGlvV2lkZ2V0IiwiTmd4TWF0ZXJpYWxUZXh0YXJlYVdpZGdldCIsIk5neE1hdGVyaWFsRm9ybU1vZHVsZSIsImltcG9ydHMiLCJDb21tb25Nb2R1bGUiLCJSZWFjdGl2ZUZvcm1zTW9kdWxlIiwiTWF0RGF0ZXBpY2tlck1vZHVsZSIsIk1hdElucHV0TW9kdWxlIiwiTWF0UmFkaW9Nb2R1bGUiLCJNYXROYXRpdmVEYXRlTW9kdWxlIiwiTWF0UmlwcGxlTW9kdWxlIiwiZXhwb3J0cyIsImRlY2xhcmF0aW9ucyIsImVudHJ5Q29tcG9uZW50cyJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7QUFBQTs7QUFDQTs7QUFDQTs7QUFDQTs7QUFDQTs7QUFDQTs7QUFDQTs7QUFFQTs7QUFDQTs7QUFDQTs7QUFDQTs7Ozs7O0FBRUEsSUFBTUEsT0FBTyxHQUFHLENBQUNDLGdDQUFELEVBQXdCQyxrQ0FBeEIsRUFBZ0RDLGtDQUFoRCxFQUF3RUMsd0NBQXhFLENBQWhCO0lBZ0JhQyxxQixXQWRaLG9CQUFTO0FBQ1JDLEVBQUFBLE9BQU8sRUFBRSxDQUNQQyxvQkFETyxFQUVQQywwQkFGTyxFQUdQQywrQkFITyxFQUlQQyxxQkFKTyxFQUtQQyxxQkFMTyxFQU1QQywwQkFOTyxFQU9QQyxzQkFQTyxDQUREO0FBVVJDLEVBQUFBLE9BQU8sWUFBTWQsT0FBTixDQVZDO0FBV1JlLEVBQUFBLFlBQVksWUFBTWYsT0FBTixDQVhKO0FBWVJnQixFQUFBQSxlQUFlLFlBQU1oQixPQUFOO0FBWlAsQ0FBVCxDIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgTmdNb2R1bGUgfSBmcm9tICdAYW5ndWxhci9jb3JlJztcbmltcG9ydCB7IENvbW1vbk1vZHVsZSB9IGZyb20gJ0Bhbmd1bGFyL2NvbW1vbic7XG5pbXBvcnQgeyBSZWFjdGl2ZUZvcm1zTW9kdWxlIH0gZnJvbSAnQGFuZ3VsYXIvZm9ybXMnO1xuaW1wb3J0IHsgTWF0RGF0ZXBpY2tlck1vZHVsZSB9IGZyb20gJ0Bhbmd1bGFyL21hdGVyaWFsL2RhdGVwaWNrZXInO1xuaW1wb3J0IHsgTWF0SW5wdXRNb2R1bGUgfSBmcm9tICdAYW5ndWxhci9tYXRlcmlhbC9pbnB1dCc7XG5pbXBvcnQgeyBNYXROYXRpdmVEYXRlTW9kdWxlLCBNYXRSaXBwbGVNb2R1bGUgfSBmcm9tICdAYW5ndWxhci9tYXRlcmlhbC9jb3JlJztcbmltcG9ydCB7IE1hdFJhZGlvTW9kdWxlIH0gZnJvbSAnQGFuZ3VsYXIvbWF0ZXJpYWwvcmFkaW8nO1xuXG5pbXBvcnQgeyBOZ3hNYXRlcmlhbERhdGVXaWRnZXQgfSBmcm9tICcuL2RhdGUtZmllbGQud2lkZ2V0JztcbmltcG9ydCB7IE5neE1hdGVyaWFsSW5wdXRXaWRnZXQgfSBmcm9tICcuL2lucHV0LWZpZWxkLndpZGdldCc7XG5pbXBvcnQgeyBOZ3hNYXRlcmlhbFJhZGlvV2lkZ2V0IH0gZnJvbSAnLi9yYWRpby1maWVsZC53aWRnZXQnO1xuaW1wb3J0IHsgTmd4TWF0ZXJpYWxUZXh0YXJlYVdpZGdldCB9IGZyb20gJy4vdGV4dGFyZWEtZmllbGQud2lkZ2V0JztcblxuY29uc3Qgd2lkZ2V0cyA9IFtOZ3hNYXRlcmlhbERhdGVXaWRnZXQsIE5neE1hdGVyaWFsSW5wdXRXaWRnZXQsIE5neE1hdGVyaWFsUmFkaW9XaWRnZXQsIE5neE1hdGVyaWFsVGV4dGFyZWFXaWRnZXRdO1xuXG5ATmdNb2R1bGUoe1xuICBpbXBvcnRzOiBbXG4gICAgQ29tbW9uTW9kdWxlLFxuICAgIFJlYWN0aXZlRm9ybXNNb2R1bGUsXG4gICAgTWF0RGF0ZXBpY2tlck1vZHVsZSxcbiAgICBNYXRJbnB1dE1vZHVsZSxcbiAgICBNYXRSYWRpb01vZHVsZSxcbiAgICBNYXROYXRpdmVEYXRlTW9kdWxlLFxuICAgIE1hdFJpcHBsZU1vZHVsZVxuICBdLFxuICBleHBvcnRzOiBbLi4ud2lkZ2V0c10sXG4gIGRlY2xhcmF0aW9uczogWy4uLndpZGdldHNdLFxuICBlbnRyeUNvbXBvbmVudHM6IFsuLi53aWRnZXRzXVxufSlcbmV4cG9ydCBjbGFzcyBOZ3hNYXRlcmlhbEZvcm1Nb2R1bGUge31cbiJdfQ==
