@@ -11,7 +11,7 @@
   },
   "ngPackage": {
     "lib": {
-      "entryFile": "./src/index.ts"
+      "entryFile": "public_api.ts"
     },
     "whitelistedNonPeerDependencies": [
       "@libertyware/ngx-form-core",
@@ -28,10 +28,11 @@
     "core-js": "^3.4.1"
   },
   "files": [
-    "lib"
+    "dist"
   ],
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "directory": "dist"
   },
   "gitHead": "3a53617011194b4c0427bd0da227d0ad56160a74"
 }
