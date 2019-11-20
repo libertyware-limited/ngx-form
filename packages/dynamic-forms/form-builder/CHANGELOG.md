@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.7.1](https://github.com/libertyware-limited/ngx-form/compare/@libertyware/ngx-form-builder@0.4.4...@libertyware/ngx-form-builder@0.7.1) (2019-11-20)
+
+
+### Bug Fixes
+
+* change package version ([0c2ae42](https://github.com/libertyware-limited/ngx-form/commit/0c2ae424b3b78c23f7e362000bdedba4b1187159))
+* release failed ([4062373](https://github.com/libertyware-limited/ngx-form/commit/4062373d013b288f44b3810a3849aa8770165552))
+
+
+
+
+
 ## [0.4.4](https://github.com/libertyware-limited/ngx-form/compare/@libertyware/ngx-form-builder@0.4.3...@libertyware/ngx-form-builder@0.4.4) (2019-11-20)
 
 
