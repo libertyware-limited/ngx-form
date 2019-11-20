@@ -1,13 +1,13 @@
 {
   "$schema": "../../../node_modules/ng-packagr/package.schema.json",
   "name": "@libertyware/ngx-form-builder",
-  "version": "0.7.2",
+  "version": "0.7.3",
   "private": false,
   "main": "bundles/libertyware-ngx-form-builder.umd.js",
   "types": "./dist/index.d.ts",
   "license": "MIT",
   "dependencies": {
-    "@libertyware/ngx-form-core": "^0.4.4",
+    "@libertyware/ngx-form-core": "^0.4.5",
     "class-transformer": "^0.2.3",
     "class-validator": "^0.11.0",
     "lodash.clonedeep": "^4.5.0",

@@ -3,7 +3,8 @@ import { ClassType } from 'class-transformer/ClassTransformer';
 import { ValidationError, ValidatorOptions } from 'class-validator';
 import 'reflect-metadata';
 import { BehaviorSubject, Subject } from 'rxjs';
-import { Dictionary, ShortValidationErrors } from '../models';
+import { Dictionary } from '../models/dictionary';
+import { ShortValidationErrors } from '../models/short-validation-errors';
 import { DynamicFormControl } from './dynamic-form-control';
 import { WidgetOptions } from '@libertyware/ngx-form-core';
 export declare type FormModel<T> = {

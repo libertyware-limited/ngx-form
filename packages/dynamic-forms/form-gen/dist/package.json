@@ -1,14 +1,14 @@
 {
   "$schema": "../../../node_modules/ng-packagr/package.schema.json",
   "name": "@libertyware/ngx-form-gen",
-  "version": "0.7.2",
+  "version": "0.7.3",
   "private": false,
   "license": "MIT",
   "main": "bundles/libertyware-ngx-form-gen.umd.js",
   "types": "./dist/index.d.ts",
   "dependencies": {
-    "@libertyware/ngx-form-builder": "^0.7.2",
-    "@libertyware/ngx-form-core": "^0.4.4",
+    "@libertyware/ngx-form-builder": "^0.7.3",
+    "@libertyware/ngx-form-core": "^0.4.5",
     "tslib": "^1.9.0"
   },
   "peerDependencies": {
