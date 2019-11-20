@@ -25,9 +25,13 @@ import 'reflect-metadata';
 import { BehaviorSubject, Subject } from 'rxjs';
 import {
   Dictionary,
+} from '../models/dictionary';
+import {
+  ShortValidationErrors,
+} from '../models/short-validation-errors';
+import {
   DynamicFormGroupField,
-  ShortValidationErrors
-} from '../models';
+} from '../models/dynamic-form-group-field';
 import {
   foreverInvalid,
   FOREVER_INVALID_NAME
