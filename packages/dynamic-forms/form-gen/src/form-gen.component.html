@@ -1,10 +1,10 @@
 <form [formGroup]="group" #form="ngForm" (ngSubmit)="onSubmit()">
 
   <ng-container *ngFor="let option of group.getFormGenData()">
-    <govuk-root-widget *ngIf="renderExists(option)" [renderOptions]="renderOptionsOverRide" [fieldOptions]="option"></govuk-root-widget>
+    <libertware-root-widget *ngIf="renderExists(option)" [renderOptions]="widgets" [fieldOptions]="option"></libertware-root-widget>
   </ng-container>
 
-  <button class="govuk-button">
+  <button class="submit-button">
     Continue
   </button>
 </form>

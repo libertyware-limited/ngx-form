@@ -22,7 +22,7 @@ function _applyDecoratedDescriptor(target, property, decorators, descriptor, con
 function _initializerWarningHelper(descriptor, context) { throw new Error('Decorating class property failed. Please ensure that ' + 'proposal-class-properties is enabled and set to use loose mode. ' + 'To use proposal-class-properties in spec mode with decorators, wait for ' + 'the next major version of decorators in stage 2.'); }
 
 var FormGenComponent = (_dec = (0, _core.Component)({
-  selector: 'govuk-form-gen',
+  selector: 'libertware-form-gen',
   templateUrl: 'form-gen.component.html'
 }), _dec2 = (0, _core.Input)(), _dec(_class = (_class2 = (_temp = function () {
   function FormGenComponent(groupDirective) {
