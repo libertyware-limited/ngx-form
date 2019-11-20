@@ -1,11 +1,11 @@
 "use strict";
 
+require("core-js/modules/es.object.define-property");
+
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.materialDesignRenderOptions = void 0;
-
-require("core-js/modules/es6.object.define-property");
 
 var _ngxFormCore = require("@libertyware/ngx-form-core");
 

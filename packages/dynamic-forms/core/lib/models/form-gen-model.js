@@ -1,15 +1,15 @@
 "use strict";
 
+require("core-js/modules/es.object.define-property");
+
+require("core-js/modules/es.object.to-string");
+
+require("core-js/modules/es.promise");
+
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.FormGenModel = void 0;
-
-require("core-js/modules/es6.promise");
-
-require("core-js/modules/es6.object.to-string");
-
-require("core-js/modules/es6.object.define-property");
 
 require("regenerator-runtime/runtime");
 

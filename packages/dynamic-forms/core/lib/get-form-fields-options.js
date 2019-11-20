@@ -1,13 +1,13 @@
 "use strict";
 
-require("core-js/modules/es6.object.define-property");
+require("core-js/modules/es.array.map");
+
+require("core-js/modules/es.object.define-property");
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.getFormFieldsOptions = void 0;
-
-require("core-js/modules/es6.array.map");
 
 var _metaKeys = require("./decorators/meta-keys");
 

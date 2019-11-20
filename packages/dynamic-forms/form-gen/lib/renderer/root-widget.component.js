@@ -1,23 +1,23 @@
 "use strict";
 
+require("core-js/modules/es.array.for-each");
+
+require("core-js/modules/es.array.reduce");
+
+require("core-js/modules/es.array.reverse");
+
+require("core-js/modules/es.array.slice");
+
+require("core-js/modules/es.object.define-property");
+
+require("core-js/modules/es.object.keys");
+
+require("core-js/modules/web.dom-collections.for-each");
+
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.RootWidget = void 0;
-
-require("core-js/modules/es6.object.define-property");
-
-require("core-js/modules/es6.array.reduce");
-
-require("core-js/modules/web.dom.iterable");
-
-require("core-js/modules/es6.array.iterator");
-
-require("core-js/modules/es6.object.to-string");
-
-require("core-js/modules/es6.object.keys");
-
-require("core-js/modules/es6.array.for-each");
 
 var _core = require("@angular/core");
 
