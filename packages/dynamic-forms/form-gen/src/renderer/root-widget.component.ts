@@ -13,7 +13,7 @@ import { RenderOptions } from '../models/render-options';
 
 @Component({
   // tslint:disable-next-line: component-selector
-  selector: 'libertware-root-widget',
+  selector: 'libertyware-root-widget',
   template: `
     <ng-container #container></ng-container>
   `

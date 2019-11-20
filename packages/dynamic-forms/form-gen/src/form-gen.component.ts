@@ -8,7 +8,7 @@ import { FieldWidget } from './widgets/field';
 
 @Component({
   // tslint:disable-next-line: component-selector
-  selector: 'libertware-form-gen',
+  selector: 'libertyware-form-gen',
   templateUrl: 'form-gen.component.html'
 })
 export class FormGenComponent implements OnInit {

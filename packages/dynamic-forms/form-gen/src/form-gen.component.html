@@ -1,7 +1,7 @@
 <form [formGroup]="group" #form="ngForm" (ngSubmit)="onSubmit()">
 
   <ng-container *ngFor="let option of group.getFormGenData()">
-    <libertware-root-widget *ngIf="renderExists(option)" [renderOptions]="widgets" [fieldOptions]="option"></libertware-root-widget>
+    <libertyware-root-widget *ngIf="renderExists(option)" [renderOptions]="widgets" [fieldOptions]="option"></libertyware-root-widget>
   </ng-container>
 
   <button class="submit-button">
