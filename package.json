@@ -8,7 +8,7 @@
   "scripts": {
     "postinstall": "lerna bootstrap --use-workspaces",
     "build-storybook": "build-storybook",
-    "build": "lerna run --parallel build:es",
+    "build": "lerna run build:es",
     "postbuild": "lerna run build:declaration",
     "commit": "git-cz",
     "fix": "run-p -c 'lint:* --fix'",
@@ -22,17 +22,21 @@
     "tsc": "tsc"
   },
   "devDependencies": {
+    "@angular/compiler": "^8.2.14",
+    "@angular/compiler-cli": "^8.2.14",
+    "@angular/animations": "^8.2.14",
+    "@angular/cdk": "^8.2.3",
+    "@angular/common": "^8.2.14",
     "@angular/core": "^8.2.14",
     "@angular/forms": "^8.2.14",
-    "@angular/common": "^8.2.14",
     "@angular/material": "^8.2.3",
-    "@angular/cdk": "^8.2.3",
-    "@angular/animations": "^8.2.14",
     "@angular/platform-browser": "^8.2.14",
     "@commitlint/cli": "^8.1.0",
     "@commitlint/config-conventional": "^8.1.0",
     "husky": "^3.0.5",
     "lerna": "^3.16.4"
   },
-  "dependencies": {}
+  "dependencies": {
+    "ng-packagr": "^5.7.1"
+  }
 }

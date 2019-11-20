@@ -1,22 +1,31 @@
 {
+  "$schema": "../../../node_modules/ng-packagr/package.schema.json",
   "name": "@libertyware/ngx-form-gen",
   "version": "0.6.4",
   "private": false,
   "license": "MIT",
-  "main": "lib/index.js",
-  "types": "./lib/index.d.ts",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "scripts": {
-    "build:declaration": "tsc --project tsconfig.json",
-    "build:es": "cross-env BABEL_ENV=build babel src --root-mode upward-optional --out-dir lib --source-maps inline --extensions \".ts\" --delete-dir-on-start --no-comments"
+    "build:es": "ng-packagr -p package.json"
+  },
+  "ngPackage": {
+    "lib": {
+      "entryFile": "./src/index.ts"
+    },
+    "whitelistedNonPeerDependencies": [
+      "@libertyware/ngx-form-core",
+      "@libertyware/ngx-form-builder"
+    ]
   },
   "dependencies": {
     "@libertyware/ngx-form-builder": "^0.4.3",
-    "@libertyware/ngx-form-core": "^0.4.3",
-    "core-js": "^3.4.1"
+    "@libertyware/ngx-form-core": "^0.4.3"
   },
   "peerDependencies": {
     "@angular/common": ">= 7.0.0",
-    "@angular/forms": ">= 7.0.0"
+    "@angular/forms": ">= 7.0.0",
+    "core-js": "^3.4.1"
   },
   "files": [
     "lib"

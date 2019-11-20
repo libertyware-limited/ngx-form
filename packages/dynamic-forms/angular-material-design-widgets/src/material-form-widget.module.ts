@@ -7,8 +7,11 @@ import { MatNativeDateModule, MatRippleModule } from '@angular/material/core';
 import { MatRadioModule } from '@angular/material/radio';
 
 import { NgxMaterialDateWidget } from './date-field.widget';
+import { NgxMaterialInputWidget } from './input-field.widget';
+import { NgxMaterialRadioWidget } from './radio-field.widget';
+import { NgxMaterialTextareaWidget } from './textarea-field.widget';
 
-const widgets = [NgxMaterialDateWidget];
+const widgets = [NgxMaterialDateWidget, NgxMaterialInputWidget, NgxMaterialRadioWidget, NgxMaterialTextareaWidget];
 
 @NgModule({
   imports: [
