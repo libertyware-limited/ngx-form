@@ -1,7 +1,6 @@
 import { AbstractControl, AbstractControlOptions, AsyncValidatorFn, FormArray, FormBuilder, FormGroup, ValidatorFn } from '@angular/forms';
 import { ClassType } from 'class-transformer/ClassTransformer';
 import { ValidationError, ValidatorOptions } from 'class-validator';
-import 'reflect-metadata';
 import { BehaviorSubject, Subject } from 'rxjs';
 import { Dictionary } from '../models/dictionary';
 import { ShortValidationErrors } from '../models/short-validation-errors';

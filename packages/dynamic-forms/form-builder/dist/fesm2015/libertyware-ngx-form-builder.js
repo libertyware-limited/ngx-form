@@ -1,5 +1,4 @@
 import { isNullOrUndefined } from 'util';
-import 'reflect-metadata';
 import { FormControl, FormGroup, FormBuilder, FormArray } from '@angular/forms';
 import { classToClass, plainToClass } from 'class-transformer';
 import { __awaiter } from 'tslib';

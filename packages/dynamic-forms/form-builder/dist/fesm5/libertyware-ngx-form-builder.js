@@ -1,6 +1,5 @@
 import { isNullOrUndefined } from 'util';
 import { __extends, __awaiter, __generator, __assign, __read } from 'tslib';
-import 'reflect-metadata';
 import { FormControl, FormBuilder, FormArray, FormGroup } from '@angular/forms';
 import { classToClass, plainToClass } from 'class-transformer';
 import { validate, getFromContainer, MetadataStorage, Validator, ValidationTypes, validateSync } from 'class-validator';

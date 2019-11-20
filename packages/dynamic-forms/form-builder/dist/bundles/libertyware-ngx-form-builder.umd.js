@@ -1,8 +1,8 @@
 (function (global, factory) {
-    typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('util'), require('reflect-metadata'), require('@angular/forms'), require('class-transformer'), require('class-validator'), require('rxjs'), require('@libertyware/ngx-form-core'), require('lodash.clonedeep'), require('lodash.mergewith')) :
-    typeof define === 'function' && define.amd ? define('@libertyware/ngx-form-builder', ['exports', 'util', 'reflect-metadata', '@angular/forms', 'class-transformer', 'class-validator', 'rxjs', '@libertyware/ngx-form-core', 'lodash.clonedeep', 'lodash.mergewith'], factory) :
-    (global = global || self, factory((global.libertyware = global.libertyware || {}, global.libertyware['ngx-form-builder'] = {}), global.util, null, global.ng.forms, global.classTransformer, global.classValidator, global.rxjs, global.ngxFormCore, global.cloneDeep, global.mergeWith));
-}(this, (function (exports, util, reflectMetadata, forms, classTransformer, classValidator, rxjs, ngxFormCore, cloneDeep, mergeWith) { 'use strict';
+    typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('util'), require('@angular/forms'), require('class-transformer'), require('class-validator'), require('rxjs'), require('@libertyware/ngx-form-core'), require('lodash.clonedeep'), require('lodash.mergewith')) :
+    typeof define === 'function' && define.amd ? define('@libertyware/ngx-form-builder', ['exports', 'util', '@angular/forms', 'class-transformer', 'class-validator', 'rxjs', '@libertyware/ngx-form-core', 'lodash.clonedeep', 'lodash.mergewith'], factory) :
+    (global = global || self, factory((global.libertyware = global.libertyware || {}, global.libertyware['ngx-form-builder'] = {}), global.util, global.ng.forms, global.classTransformer, global.classValidator, global.rxjs, global.ngxFormCore, global.cloneDeep, global.mergeWith));
+}(this, (function (exports, util, forms, classTransformer, classValidator, rxjs, ngxFormCore, cloneDeep, mergeWith) { 'use strict';
 
     cloneDeep = cloneDeep && cloneDeep.hasOwnProperty('default') ? cloneDeep['default'] : cloneDeep;
     mergeWith = mergeWith && mergeWith.hasOwnProperty('default') ? mergeWith['default'] : mergeWith;

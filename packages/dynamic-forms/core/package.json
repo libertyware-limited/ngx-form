@@ -13,7 +13,7 @@
       "entryFile": "src/index.ts"
     },
     "whitelistedNonPeerDependencies": [
-      "global",
+      "global"
     ]
   },
   "license": "MIT",

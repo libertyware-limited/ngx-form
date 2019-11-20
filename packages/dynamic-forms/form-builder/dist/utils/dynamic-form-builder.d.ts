@@ -1,4 +1,3 @@
-import 'reflect-metadata';
 import { AbstractControlOptions, FormBuilder } from '@angular/forms';
 import { ClassType } from 'class-transformer/ClassTransformer';
 import { DynamicFormGroupConfig } from '../models/dynamic-form-group-config';
