@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0](https://github.com/libertyware-limited/ngx-form/compare/@libertyware/ngx-form-material-design-widget@0.1.0...@libertyware/ngx-form-material-design-widget@0.2.0) (2019-11-20)
+
+
+### Features
+
+* **chore:** release change ([215ba25](https://github.com/libertyware-limited/ngx-form/commit/215ba25e54682efeae44ef359f758069cc14d28c))
+* **material:** added preset for material ([9a9e29b](https://github.com/libertyware-limited/ngx-form/commit/9a9e29b023be927563f3659a9fd245892b48be6c))
+
+
+
+
+
 # 0.1.0 (2019-11-20)
 
 
