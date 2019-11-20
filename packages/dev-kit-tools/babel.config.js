@@ -1,7 +1,15 @@
 module.exports = function(api) {
   api.cache(true);
   return {
-    presets: ['@babel/plugin-transform-typescript', '@babel/preset-env'],
+    presets: [
+      [
+        '@babel/preset-env',
+        {
+          useBuiltIns: 'usage'
+        }
+      ],
+      '@babel/plugin-transform-typescript'
+    ],
     plugins: [
       ['@babel/plugin-proposal-decorators', { legacy: true }],
       ['@babel/plugin-proposal-class-properties', { loose: true }],
