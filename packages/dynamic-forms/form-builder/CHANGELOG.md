@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0](https://github.com/libertyware-limited/model-form-builder/compare/@oop-dynmic-forms/ngx-form-builder@0.1.0...@oop-dynmic-forms/ngx-form-builder@0.2.0) (2019-11-20)
+
+
+### Features
+
+* **npm:** not private packages ([d0819aa](https://github.com/libertyware-limited/model-form-builder/commit/d0819aab52869f47f116b340f77364418b0c4b5e))
+
+
+
+
+
 # 0.1.0 (2019-11-20)
 
 
