@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.4.2](https://github.com/libertyware-limited/ngx-form/compare/@libertyware/ngx-form-builder@0.4.1...@libertyware/ngx-form-builder@0.4.2) (2019-11-20)
+
+
+### Bug Fixes
+
+* core-js as as dependcies ([8b5be2e](https://github.com/libertyware-limited/ngx-form/commit/8b5be2e2a965ef9d52754f02c2bc0674c094928f))
+
+
+
+
+
 ## [0.4.1](https://github.com/libertyware-limited/ngx-form/compare/@libertyware/ngx-form-builder@0.4.0...@libertyware/ngx-form-builder@0.4.1) (2019-11-20)
 
 
