@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.4.1](https://github.com/libertyware-limited/ngx-form/compare/@libertyware/ngx-form-builder@0.4.0...@libertyware/ngx-form-builder@0.4.1) (2019-11-20)
+
+
+### Bug Fixes
+
+* babel build ([28e5f32](https://github.com/libertyware-limited/ngx-form/commit/28e5f32112c21f2b607b1e8041336083aeadf410))
+* mssing build files ([e09f65f](https://github.com/libertyware-limited/ngx-form/commit/e09f65f277bae733ed086fab71923b79da4c01e0))
+
+
+
+
+
 # [0.4.0](https://github.com/libertyware-limited/model-form-builder/compare/@libertyware/ngx-form-builder@0.3.0...@libertyware/ngx-form-builder@0.4.0) (2019-11-20)
 
 
