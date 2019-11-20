@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.7.4](https://github.com/libertyware-limited/ngx-form/compare/@libertyware/ngx-form-gen@0.7.3...@libertyware/ngx-form-gen@0.7.4) (2019-11-20)
+
+
+### Bug Fixes
+
+* remove import by internal index ([7880638](https://github.com/libertyware-limited/ngx-form/commit/788063808cf81f631c601adf26ae05bf54992ad2))
+
+
+
+
+
 ## [0.7.3](https://github.com/libertyware-limited/ngx-form/compare/@libertyware/ngx-form-gen@0.7.2...@libertyware/ngx-form-gen@0.7.3) (2019-11-20)
 
 

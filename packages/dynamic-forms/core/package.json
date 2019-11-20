@@ -1,7 +1,7 @@
 {
   "$schema": "../../../node_modules/ng-packagr/package.schema.json",
   "name": "@libertyware/ngx-form-core",
-  "version": "0.4.5",
+  "version": "0.4.6",
   "private": false,
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
