@@ -1,6 +1,7 @@
 {
   "name": "@oop-dynmic-forms/ngx-form-gen",
   "version": "0.1.0",
+  "private": false,
   "license": "MIT",
   "main": "lib/index.js",
   "types": "./lib/index.d.ts",
