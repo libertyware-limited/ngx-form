@@ -1,6 +1,6 @@
 {
   "name": "@oop-dynmic-forms/ngx-form-builder",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "main": "lib/index.js",
   "types": "./lib/index.d.ts",
   "license": "MIT",
@@ -9,11 +9,11 @@
     "build:es": "cross-env BABEL_ENV=build babel src --root-mode upward-optional --out-dir lib --source-maps inline --extensions \".ts\" --delete-dir-on-start --no-comments"
   },
   "dependencies": {
-    "@oop-dynmic-forms/core": "*",
-    "lodash.clonedeep": "^4.5.0",
-    "lodash.mergewith": "^4.5.0",
+    "@oop-dynmic-forms/core": "^0.1.0",
     "class-transformer": "^0.2.3",
     "class-validator": "^0.11.0",
+    "lodash.clonedeep": "^4.5.0",
+    "lodash.mergewith": "^4.5.0",
     "util": "^0.12.1"
   },
   "peerDependencies": {

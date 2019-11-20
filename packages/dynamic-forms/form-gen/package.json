@@ -1,6 +1,6 @@
 {
   "name": "@oop-dynmic-forms/ngx-form-gen",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "license": "MIT",
   "main": "lib/index.js",
   "types": "./lib/index.d.ts",
@@ -9,12 +9,12 @@
     "build:es": "cross-env BABEL_ENV=build babel src --root-mode upward-optional --out-dir lib --source-maps inline --extensions \".ts\" --delete-dir-on-start --no-comments"
   },
   "dependencies": {
-    "@oop-dynmic-forms/core": "*",
-    "@oop-dynmic-forms/ngx-form-builder": "*"
+    "@oop-dynmic-forms/core": "^0.1.0",
+    "@oop-dynmic-forms/ngx-form-builder": "^0.1.0"
   },
   "peerDependencies": {
-    "@angular/forms": ">= 7.0.0",
-    "@angular/common": ">= 7.0.0"
+    "@angular/common": ">= 7.0.0",
+    "@angular/forms": ">= 7.0.0"
   },
   "files": [
     "lib"
