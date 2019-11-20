@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.4](https://github.com/libertyware-limited/ngx-form/compare/@libertyware/ngx-form-material-design-widget@0.2.3...@libertyware/ngx-form-material-design-widget@0.2.4) (2019-11-20)
+
+
+### Bug Fixes
+
+* babel use corejs 3 ([9813628](https://github.com/libertyware-limited/ngx-form/commit/98136286138a37d3a5a016cfa6d9a0e0a00924fa))
+* chore release didnt commit ([70f74ff](https://github.com/libertyware-limited/ngx-form/commit/70f74fff5af89cf7bc3696e4259084783c838e20))
+
+
+
+
+
 ## [0.2.3](https://github.com/libertyware-limited/ngx-form/compare/@libertyware/ngx-form-material-design-widget@0.2.2...@libertyware/ngx-form-material-design-widget@0.2.3) (2019-11-20)
 
 

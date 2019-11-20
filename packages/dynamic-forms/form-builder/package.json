@@ -1,6 +1,6 @@
 {
   "name": "@libertyware/ngx-form-builder",
-  "version": "0.4.2",
+  "version": "0.4.3",
   "private": false,
   "main": "lib/index.js",
   "types": "./lib/index.d.ts",
@@ -10,7 +10,7 @@
     "build:es": "cross-env BABEL_ENV=build babel src --root-mode upward-optional --out-dir lib --source-maps inline --extensions \".ts\" --delete-dir-on-start --no-comments"
   },
   "dependencies": {
-    "@libertyware/ngx-form-core": "^0.4.2",
+    "@libertyware/ngx-form-core": "^0.4.3",
     "class-transformer": "^0.2.3",
     "class-validator": "^0.11.0",
     "core-js": "^3.4.1",
