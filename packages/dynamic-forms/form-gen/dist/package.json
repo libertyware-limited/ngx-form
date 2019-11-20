@@ -1,14 +1,14 @@
 {
   "$schema": "../../../node_modules/ng-packagr/package.schema.json",
   "name": "@libertyware/ngx-form-gen",
-  "version": "0.6.5",
+  "version": "0.7.0",
   "private": false,
   "license": "MIT",
   "main": "bundles/libertyware-ngx-form-gen.umd.js",
   "types": "./dist/index.d.ts",
   "dependencies": {
-    "@libertyware/ngx-form-builder": "^0.4.3",
-    "@libertyware/ngx-form-core": "^0.4.3",
+    "@libertyware/ngx-form-builder": "*",
+    "@libertyware/ngx-form-core": "*",
     "tslib": "^1.9.0"
   },
   "peerDependencies": {
@@ -23,7 +23,7 @@
     "access": "public",
     "directory": "dist"
   },
-  "gitHead": "3a53617011194b4c0427bd0da227d0ad56160a74",
+  "gitHead": "56ba5d9b8e8bad25ae2cc8e7af0ca94de30ab974",
   "module": "fesm5/libertyware-ngx-form-gen.js",
   "es2015": "fesm2015/libertyware-ngx-form-gen.js",
   "esm5": "esm5/libertyware-ngx-form-gen.js",

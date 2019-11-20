@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.6](https://github.com/libertyware-limited/ngx-form/compare/@libertyware/ngx-form-material-design-widget@0.2.5...@libertyware/ngx-form-material-design-widget@0.2.6) (2019-11-20)
+
+
+### Bug Fixes
+
+* commit from failed release ([37de0c2](https://github.com/libertyware-limited/ngx-form/commit/37de0c2d35997dd98bea1e9d212dd6472b144063))
+* publish config for angular packages changed ([826f1fd](https://github.com/libertyware-limited/ngx-form/commit/826f1fd12f49b70102c1e2639cd95d71f2e15954))
+* release failed to commit ([8009437](https://github.com/libertyware-limited/ngx-form/commit/8009437cb4ec334a037e3f769de2534bd7ee158a))
+
+
+
+
+
 ## [0.2.5](https://github.com/libertyware-limited/ngx-form/compare/@libertyware/ngx-form-material-design-widget@0.2.4...@libertyware/ngx-form-material-design-widget@0.2.5) (2019-11-20)
 
 
