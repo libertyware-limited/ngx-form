@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.7.7](https://github.com/libertyware-limited/ngx-form/compare/@libertyware/ngx-form-gen@0.7.6...@libertyware/ngx-form-gen@0.7.7) (2019-11-20)
+
+**Note:** Version bump only for package @libertyware/ngx-form-gen
+
+
+
+
+
 ## [0.7.6](https://github.com/libertyware-limited/ngx-form/compare/@libertyware/ngx-form-gen@0.7.5...@libertyware/ngx-form-gen@0.7.6) (2019-11-20)
 
 

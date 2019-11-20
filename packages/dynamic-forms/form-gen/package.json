@@ -1,6 +1,6 @@
 {
   "name": "@libertyware/ngx-form-gen",
-  "version": "0.7.6",
+  "version": "0.7.7",
   "private": false,
   "license": "MIT",
   "main": "./lib/index.js",
@@ -19,8 +19,8 @@
     ]
   },
   "dependencies": {
-    "@libertyware/ngx-form-builder": "^0.7.6",
-    "@libertyware/ngx-form-core": "^0.4.8"
+    "@libertyware/ngx-form-builder": "^0.7.7",
+    "@libertyware/ngx-form-core": "^0.4.9"
   },
   "peerDependencies": {
     "@angular/common": ">= 7.0.0",
