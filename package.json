@@ -37,6 +37,6 @@
     "lerna": "^3.16.4"
   },
   "dependencies": {
-    "ng-packagr": "^5.7.1"
+    "ng-packagr": "^10.1.1"
   }
 }
